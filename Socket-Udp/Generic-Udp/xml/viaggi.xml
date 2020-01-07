@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE viaggi SYSTEM "viaggi.dtd">
+<viaggi>
+<paese nome="Italia">
+<capitale>Roma</capitale>
+<giorni>10</giorni>
+<costo>1000.00</costo>
+<stagione>Primavera</stagione>
+</paese>
+<paese nome="Francia">
+<capitale>Parigi</capitale>
+<giorni>15</giorni>
+<costo>2000.50</costo>
+<stagione>Estate</stagione>
+</paese>
+</viaggi>
+

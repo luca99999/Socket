@@ -1,0 +1,28 @@
+capitale {
+display: block;
+width: 760px;
+text-align: center;
+background: blue;
+color:white;
+font-family: Arial;
+font-size: 140%;
+}
+
+
+giorni {
+display: block;
+text-align:left;
+color:red;
+font-family: Arial;
+font-style: italic;
+font-size: 120%;
+}
+
+costo {
+display: block;
+text-align:left;
+color:yellow;
+font-family: Arial;
+font-style: italic;
+}
+

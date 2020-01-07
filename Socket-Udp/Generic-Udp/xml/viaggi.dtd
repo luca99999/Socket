@@ -1,0 +1,7 @@
+<!ELEMENT viaggi (paese+)>
+<!ELEMENT paese (capitale, giorni, costo, stagione)>
+<!ELEMENT capitale (#PCDATA)>
+<!ELEMENT giorni (#PCDATA)>
+<!ELEMENT costo (#PCDATA)>
+<!ELEMENT stagione (#PCDATA)>
+<!ATTLIST paese nome ID #REQUIRED>

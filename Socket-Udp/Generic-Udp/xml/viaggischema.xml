@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="viaggi.css" ?>
+<viaggi
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="viaggi.xsd">
+<!-- questo è un commento -->
+<paese nome="Italia">
+<capitale>Roma</capitale>
+<giorni>10</giorni>
+<costo>1000.00</costo>
+<stagione>Primavera</stagione>
+</paese>
+<paese nome="Francia">
+<capitale>Parigi</capitale>
+<giorni>15</giorni>
+<costo>2000.50</costo>
+<stagione>Estate</stagione>
+</paese>
+</viaggi>

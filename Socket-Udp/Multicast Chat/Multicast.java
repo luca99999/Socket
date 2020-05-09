@@ -107,7 +107,8 @@ public class MulticastChat {
 			public void actionPerformed(ActionEvent e) {
 				// peleva la stringa dalla TextFiled
 				String messaggio = txtInvia.getText();
-				// la trasforma in un array di bytes
+				//  Codifica la String in una sequenza di bytes  
+				// e ritorna un array di bytes
 				byte[] buffer = messaggio.getBytes();
 				// crea il Datagram packet Udp
                 DatagramPacket datagram = new DatagramPacket(buffer, buffer.length, gruppo, porta);

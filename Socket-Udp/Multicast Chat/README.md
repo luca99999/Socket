@@ -20,13 +20,14 @@ multicast locali che delimitano diversi ambiti di gestione:<br>
 1) Organization Local Scope: intervallo [239.192.0.0 - 239.192.255.255];<br>
 2) Site Local Scope: intervallo [239.255.0.0 - 239.255.255.255];<br>
 3) Link Local Scope: intervallo [224.0.0.0 - 224.0.0.255];<br>
-4) Global Scope: indirizzi al di fuori dei range precedenti;<br>
+4) Global Scope: indirizzi al di fuori dei range precedenti;
+<br><br>
 Gli indirizzi globali devono essere unici in tutta la rete mentre gli
 indirizzi locali devono essere unici solo nell'ambito di appartenenza;<br>
 <br>
 La classe MulticastSocket della libreria java.net, estendendo la classe
 DatagramSocket, da un lato effettua l'overriding dei metodi esistenti
-mentre dall'altro<br>introduce nuove funzionalit‡:<br>
+mentre dall'altro<br>introduce nuove funzionalit√†:<br>
 1) per unirsi ad un gruppo di multicast;<br>
 2) per uscire dal gruppo di multicast;<br>
 3) per inviare messaggi ai membri del gruppo di multicast;<br>
